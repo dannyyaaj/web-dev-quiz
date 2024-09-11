@@ -11,13 +11,26 @@
   </head>
 
   <body>
-    <header>
-      <h1>Web Development Quiz</h1>
-    </header>
-    <div class="container"></div>
+    <div class="container">
+      <div class="header">
+        <h1>Web Development Quiz</h1>
+      </div>
+      <div class="quiz-container hide">
+        <form class="form-container">
+          <div class="question-container"></div>
+          <div class="options-container"></div>
+          <div class="controls">
+            <div class="score"></div>
+            <button type="button" class="next-button button">Next</button>
+            <button type="button" class="restart-button button">Restart</button>
+          </div>
+        </form>
+      </div>
+      <button type="button" class="start-button button">Start Quiz</button>
 
+    </div>
 
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
   </body>
 
 </html>
