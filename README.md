@@ -2,7 +2,7 @@
 
 # Web Dev Quiz App
 
-Welcome to the Web Dev Quiz App! This interactive web application is designed to help you test and improve your JavaScript skills through a series of challenging questions. Whether you're preparing for a technical interview or just looking to brush up on your coding knowledge, this app offers a fun and engaging way to learn.
+Welcome to the Web Dev Quiz App! This interactive web application is designed to help you test and improve your JavaScript skills through a series of challenging questions. Whether you're preparing for a technical interview or just looking to brush up on your coding knowledge, this app offers a fun and engaging way to learn. You can try it out [here](https://dannyyaaj.github.io/web-dev-quiz/).
 
 <!-- Features -->
 

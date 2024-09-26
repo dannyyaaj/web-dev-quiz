@@ -73,6 +73,7 @@ body {
 }
 
 .question-container {
+  line-height: 1.25;
   font-size: 1.75rem;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -161,10 +162,11 @@ body {
 @media screen and (max-width: 640px) {
   .header {
     font-size: 1rem;
+    padding: 1rem 0;
   }
 
   body {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
   }
 
   .button {
@@ -173,12 +175,19 @@ body {
   }
 
   .quiz-container {
-    padding: 1em;
-    margin: 1em;
+    display: block;
+    padding: 1.5em 1em;
+    max-width: 85%;
   }
 
   .question-container {
     font-size: 0.9rem;
+    margin: 0 0 0.5em;
+  }
+
+  .options-container {
+    padding: 1em 0;
+    grid-gap: 1.5em;
   }
 }
 
